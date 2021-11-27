@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Record.h"
 
-#define MAXHASH 10 // --------------------dgfengrd	wgfhfeggdwfbgdfgdfg dfcvbereggefvb nbdcvbterefbghghfrfewdvbge CHANGE TO 1000
+#define MAXHASH 1000
 using namespace std;
 
 template <class T> class HashTable {
