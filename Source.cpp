@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-	cout << "USING H1 AND P1" << endl;
+	// Testing source
 	HashTable<int> ht;
 
 	int collisions = 0;
@@ -17,7 +17,6 @@ int main() {
 	cout << collisions << endl;
 	ht.insert(11, 1, collisions);
 	cout << collisions << endl;
-//	ht.remove(1, lel);
 	ht.insert(1, 1, collisions);
 	ht.insert(21, 1, collisions);
 	ht.insert(31, 1, collisions);
